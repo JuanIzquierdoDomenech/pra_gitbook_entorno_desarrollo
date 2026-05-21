@@ -4,8 +4,8 @@ En esta sección se proporcionan una serie de controles básicos asociados a la 
 
 ## Control de procesos
 
-* **`CTRL+C`**: **Mata (kill) el proceso en ejecución**.
-* **`CTRL+Z`**: **Detiene temporalmente (pausa) el proceso en ejecución**.
+* **`CTRL + C`**: **Mata (kill) el proceso en ejecución**.
+* **`CTRL + Z`**: **Detiene temporalmente (pausa) el proceso en ejecución**.
   * Para reanudarlo, debemos ejecutar el comando `fg` (foreground).
 
 ## Eficiencia y productividad
@@ -29,7 +29,7 @@ Os recomendamos encarecidamente que **abuseis** hasta límites insospechados de 
 Si ya has escrito un comando previamente y quieres volver a ejecutarlo, no lo escribas de nuevo, **búscalo**
 {% endhint %}
 
-* **`CTRL + r`**: **búsqueda dentro del historial de comandos ejecutados previamente**.&#x20;
+* **`CTRL + W`**: **búsqueda dentro del historial de comandos ejecutados previamente**.&#x20;
   * Dentro del modo de búsqueda, escribe texto que esté contenido dentro del comando para encontrarlo.
   * Pulsa `CTRL + r` sucesivas veces para ir recorriendo la lista de comandos que cumplen con el texto de búsqueda, hasta encontrar el comando deseado
   * Una vez encontrado el comando, pulsa `ESC` o cualquier tecla de cursor para salir del modo búsqueda.
