@@ -1,2 +1,37 @@
 # Ejercicio final: proyecto "Brazo Robótico"
 
+Para terminar, vamos a realizar un **ejercicio que ponga en práctica todas las herramientas que hemos visto**: terminal Bash, editor Vim, programación en C++, control de versiones con Git/GitHub, y automatización de la compilación con Make.&#x20;
+
+Además, **este ejercicio te servirá para repasar la Programación Orientada a Objetos con C++**.&#x20;
+
+Deberéis realizarlo <mark style="background-color:green;">**de forma individual**</mark>**&#x20;y&#x20;**<mark style="background-color:green;">**PASO A PASO**</mark>**&#x20;(deben haber 3 commits)**<mark style="background-color:green;">**.**</mark>
+
+{% hint style="info" icon="hammer" %}
+Es muy importante que realicéis esta actividad usando las herramientas presentadas, tal y como se indica en cada paso.&#x20;
+
+El propósito principal de este actividad es que practiquéis con ellas y que aprendáis a utilizarlas.&#x20;
+{% endhint %}
+
+1. Abre una terminal, crea un directorio, entra dentro de él, e inicializa un repositorio Git vacío.&#x20;
+2. Implementa en C++, con Vim, una clase denominada `BrazoRobotico`, con:
+   * 3 atributos privados correspondientes a las coordenadas _(`x`,`y`,`z`)_ en el espacio 3D en la que se encuentra la extremidad del robot.
+   * 1 atributo privado que indique si el robot está sujetando un objeto o no.&#x20;
+   * 1 método constructor.
+   * 4 métodos consultores para los 4 atributos privados.
+   * Un método `coger()`.
+   * Un método `soltar()`.
+   * Un método `mover(double, double, double)`.
+   * Nota: separa la clase `BrazoRobotico`, en un fichero de cabeceras (`.h`) y un fichero de código fuente (`.cpp`) por separado. Quizás necesites recuperar los apuntes de la asignatura Programación para hacerlo.
+3. Añade los ficheros de la clase al repositorio Git y haz commit con un mensaje informativo.
+4. Implementa en C++, con Vim, una función `main()` que cree una instancia de la clase `BrazoRobotico`, que lo mueva, y que coja un objeto, mostrando información por pantalla.&#x20;
+   * Defínela en un fichero `.cpp` independiente al de la clase.&#x20;
+5. Añade el fichero `.cpp` de la función `main()` al repositorio Git y haz commit con un mensaje informativo.
+6. Crea un fichero `Makefile` con las reglas convencionales `all`, `clean`, y `test`, además de aquellas otras que necesites.&#x20;
+7. Añade el fichero `Makefile` al repositorio Git y haz commit con un mensaje informativo.
+8. Crea un repositorio remoto en [Github](https://github.com), **público**, denominado `PRA_2627_P0`, y sincroniza tu repositorio local con dicho repositorio.
+
+{% hint style="warning" icon="eyes" %}
+**Es muy importante que el repositorio se configure con visibilidad pública**, para que vuestro profesor pueda acceder a él, y con ello pueda hacer el seguimiento de vuestra actividad en la asignatura.&#x20;
+
+Deberéis asimismo comunicar el nombre de usuario de vuestra cuenta GitHub al profesor por los medios que os indique.
+{% endhint %}
