@@ -1,0 +1,2 @@
+# Sistema operativo: GNU/Linux
+
