@@ -1,7 +1,8 @@
 # Table of contents
 
 * [Introducción](README.md)
-* [Sistema operativo: GNU/Linux](sistema-operativo-gnu-linux.md)
+* [Sistema operativo: GNU/Linux](sistema-operativo-gnu-linux/README.md)
+  * [Trabajando con Linux](sistema-operativo-gnu-linux/trabajando-con-linux.md)
 * [Uso de la terminal de comandos](uso-de-la-terminal-de-comandos/README.md)
   * [Nociones básicas de la Terminal](uso-de-la-terminal-de-comandos/nociones-basicas-de-la-terminal.md)
   * [Comandos básicos](uso-de-la-terminal-de-comandos/comandos-basicos.md)

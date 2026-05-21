@@ -1,6 +1,6 @@
 # Sistema operativo: GNU/Linux
 
-<figure><img src=".gitbook/assets/GNU+Linux.png" alt="" width="310"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/GNU+Linux.png" alt="" width="310"><figcaption></figcaption></figure>
 
 El desarrollo de las prácticas se realizará sobre **sistemas operativos (SO) GNU/Linux, de código abierto y ampliamente utilizados en la industria y en la comunidad científica**. Las distribuciones abiertas de GNU/Linux más populares son [Debian](https://www.debian.org/), [Ubuntu](https://ubuntu.com/), [Fedora](https://fedoraproject.org/es/) y [CentOS](https://www.centos.org/).&#x20;
 
