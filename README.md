@@ -15,3 +15,5 @@ Concretamente, el entorno de trabajo estará caracterizado por:
 
 La siguientes secciones describen con detalle cada una de estas herramientas. La sección final propone la realización de un ejercicio, en el que pondréis en práctica todas estas herramientas para desarrollar un pequeño proyecto.
 
+<figure><img src=".gitbook/assets/Gemini_Generated_Image_qvq6h7qvq6h7qvq6.png" alt="" width="375"><figcaption></figcaption></figure>
+
