@@ -12,6 +12,7 @@
 * [Editor de código: Vim](editor-de-codigo-vim/README.md)
   * [Nociones básicas de Vim](editor-de-codigo-vim/nociones-basicas-de-vim.md)
   * [Comandos básicos de Vim](editor-de-codigo-vim/comandos-basicos-de-vim.md)
+  * [Configuración básica del editor](editor-de-codigo-vim/configuracion-basica-del-editor.md)
   * [Recursos de interés](editor-de-codigo-vim/recursos-de-interes.md)
 * [Lenguaje de programación: C++](lenguaje-de-programacion-c++.md)
 * [Automatización: Make](automatizacion-make/README.md)
