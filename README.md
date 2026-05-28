@@ -7,8 +7,8 @@ En la Práctica 0 describiremos con detalle el entorno de trabajo en el que se d
 Concretamente, el entorno de trabajo estará caracterizado por:
 
 * **Sistema operativo basado en&#x20;**_**GNU/Linux**:_ _Ubuntu_.
-* **Uso de la terminal de comandos**: uso de la terminal de comandos Bash.
-* **Editor de código (IDE)**: &#x56;_&#x69;m_.
+* **Uso de la terminal de comandos**: uso de la terminal de comandos _Bash_.
+* **Editor de código (IDE)**: _Vim_.
 * **Lenguaje de programación:** _C++_.
 * **Control de versiones:** _Git_ y _GitHub._
 * **Automatización del proceso de compilación:** _Make_.
