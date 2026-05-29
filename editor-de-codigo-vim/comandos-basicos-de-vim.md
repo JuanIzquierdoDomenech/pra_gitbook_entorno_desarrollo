@@ -23,7 +23,7 @@ A continuación se proporciona un listado de comandos básicos que se pueden eje
   * `33 dd` -> borra la línea actual + las 32 siguientes (33 en total, y se copian en el portapapeles).
 * Estando en modo visual: borra el contenido seleccionado (y lo copia al portapapeles).
 
-**`yy`** -> _**(yanke)**_**&#x20;copiar contenidos del buffer al portapapeles de Vim.**&#x20;
+**`yy`** -> _**(yank)**_**&#x20;copiar contenidos del buffer al portapapeles de Vim.**&#x20;
 
 * Estando en modo comando: copia la línea (completa) sobre la que se encuentra el cursor.
   * `20 yy`-> copia la línea actual + las 19 siguientes (20 en total).
@@ -43,7 +43,9 @@ A continuación se proporciona un listado de comandos básicos que se pueden eje
   * La búsqueda y reemplazo se limita a la línea actual.
   * Para extender la búsqueda a todo el buffer, debemos anteponer el símbolo `%` al comando (es decir, `:%s|<PATTERN>|<REPLACEMENT>|g`).
 * Estando en modo visual:
-  * La búsqueda y reemplazo se efectúa en el texto seleccionado.&#x20;
+  * La búsqueda y reemplazo se efectúa en el texto seleccionado.
+
+<figure><img src="../.gitbook/assets/ChatGPT Image 29 may 2026, 11_17_25.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
