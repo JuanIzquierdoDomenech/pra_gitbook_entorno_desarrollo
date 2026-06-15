@@ -12,8 +12,8 @@ En la terminal, podéis consultar en cualquier momento cuál es el directorio de
 
 Muchos de los comandos que vamos a utilizar requieren uno o varios directorios o ficheros como argumentos. En general, hablaremos de rutas (paths) a directorios o ficheros, que pueden ser:
 
-* **Relativas** al directorio de trabajo actual: p.e. `PRA/p0` (directorio), `PRA/README.txt` (fichero).
-* **Absolutas** en el sistema de ficheros: p.e. `/home/maripili/PRA/p0` (directorio), `/home/maripili/PRA/README.txt` (fichero).
+* **Relativas** al directorio de trabajo actual: p.ej., `PRA/p0` (directorio), `PRA/README.txt` (fichero).
+* **Absolutas** en el sistema de ficheros: p.ej., `/home/maripili/PRA/p0` (directorio), `/home/maripili/PRA/README.txt` (fichero).
 
 Cuando especificamos rutas relativas, podemos hacer uso de las siguientes referencias:
 
@@ -24,9 +24,10 @@ Cuando especificamos rutas relativas, podemos hacer uso de las siguientes refere
 * Una **referencia `.`** al directorio actual. Por ejemplo:
   * `./test.cpp`: apunta al fichero **test.cpp** ubicado en el directorio actual.&#x20;
   * `./PRA`: apunta al subdirectorio `PRA` ubicado en el directorio actual.
+  * `./main`: apunta al fichero `main` ubicado en el directorio actual. Si `main` es un fichero ejecutable, al escribir `./main` en la terminal se ejecuta dicho fichero.
 
 {% hint style="warning" %}
-**Evitad usar espacios en blanco para nombrar directorios y ficheros.** De lo contrario, tendréis que "escapar" los espacios en blanco, o bien usar comillas simples/dobles, lo cual es extremadamente "engorroso" y suele ser una fuente de errores absurdos perfectamente evitables. Usad guión `-` _(dash)_ o guión bajo `_` _(underscore)_ como alternativas al espacio en blanco. P.e. `"implementacion_super_eficiente.cpp"`.
+**Evitad usar espacios en blanco para nombrar directorios y ficheros.** De lo contrario, tendréis que "escapar" los espacios en blanco, o bien usar comillas simples/dobles, lo cual es extremadamente engorroso y suele ser una fuente de errores absurdos evitables. Usad guión `-` _(dash)_ o guión bajo `_` _(underscore)_ como alternativas al espacio en blanco. P.ej., `"implementacion_super_eficiente.cpp"`.
 {% endhint %}
 
 {% hint style="info" %}
@@ -38,11 +39,10 @@ Como regla general, se recomienda usar el conjunto de caracteres: `{a-z, A-Z, 0-
 La terminal bash proporciona una serie de variables de entorno globales y de usuario. Las variables de entorno son pares `nombre-variable = valor-variable` que tienen la capacidad de alterar el funcionamiento de los programas del sistema operativo que las consultan. Para acceder a ellas, se debe utilizar el carácter `$` (dólar) delante del identificador de la variable. Algunas variables de entorno relevantes y predefinidas en sistemas GNU/Linux son:
 
 * **`$HOME`**: contiene la ruta absoluta al directorio home del usuario. P.e. `/home/maripili`.
-* **`$USER`**: contiene el nombre de usuario del usuario del sistema que está ejecutando la terminal o el proceso correspondiente. P.e. `maripili`.
+* **`$SHELL`**: muestra el shell usado por el usuario (p.ej., bash, zsh...).
+* **`$USER`**: contiene el nombre de usuario del usuario del sistema que está ejecutando la terminal o el proceso correspondiente, como podría ser `maripili`.
 * **`$PATH`**: Esta variable contiene una lista de directorios separados por dos puntos (:) en los que el sistema busca ficheros ejecutables (programas). Cuando se invoca un comando en la terminal, el shell busca dicho comando en los diferentes directorios mencionados en la variable `$PATH`. Si se encuentra el comando, se ejecuta. De lo contrario, devuelve el error "comando no encontrado".
 
 {% hint style="info" %}
-En la terminal, podeis inspeccionar el contenido de estas variables de entorno usando el comando echo. Por ejemplo:
-
-**`echo $HOME`**
+En la terminal, podéis inspeccionar el contenido de estas variables de entorno usando el comando `echo`. Por ejemplo: **`echo $HOME`**
 {% endhint %}
