@@ -30,7 +30,7 @@ Como alternativa se puede disponer de un entorno de trabajo similar al de labora
        * Además, deberéis descargaros la imagen ISO del sistema operativo Ubuntu Desktop LTS.
          * [Ubuntu Desktop LTS](https://ubuntu.com/download/desktop), con interfaz gráfica. Requisitos mínimos:
            * 1 x CPU 2Ghz.
-           * **4GB RAM.**
+           * **6GB RAM.**
            * 25GB de espacio en disco.
        * [Tutorial de instalación de Ubuntu con Virtualbox](https://discourse.ubuntu.com/t/how-to-run-an-ubuntu-desktop-virtual-machine-using-virtualbox-7/25137).
        * Si decidís instalar la versión Desktop (con interfaz gráfica), recomendamos instalar las "Guest Additions" de Virtualbox, para una mejor integración del SO virtual con el SO real. Entre otras cosas, os permitrá montar el sistema de ficheros de Windows dentro de la Ubuntu virtualizada. [Aquí un](https://www.linuxtechi.com/install-virtualbox-guest-additions-on-ubuntu/)[ tutorial sobre cómo hacerlo](https://www.linuxtechi.com/install-virtualbox-guest-additions-on-ubuntu/).&#x20;
