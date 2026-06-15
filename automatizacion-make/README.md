@@ -1,6 +1,6 @@
 # Automatización: Make
 
-[Make](https://www.gnu.org/software/make/) es una **herramienta de automatización de procesos de compilación**, mediante la lectura de archivos llamados _Makefile_ que especifican objetivos (de compilación) y como se puede llegar a ellos. Su primera versión fue lanzada en 1976. Es una herramienta ampliamente utilizada, especialmente en proyectos de software libre escritos en C y C++. Entre sus bondades podemos destacar:
+[Make](https://en.wikipedia.org/wiki/Make_\(software\)) es una **herramienta de automatización de procesos de compilación**, mediante la lectura de archivos llamados _Makefile_ que especifican objetivos (de compilación) y como se puede llegar a ellos. Su primera versión fue lanzada en 1976. Es una herramienta ampliamente utilizada, especialmente en proyectos de software libre escritos en C y C++. Entre sus bondades podemos destacar:
 
 * Permite al usuario final **compilar e instalar el proyecto software sin conocer los detalles de cómo se hace**, porque estos detalles se registran en el archivo Makefile proporcionado.&#x20;
 * Make **determina automáticamente qué archivos binarios necesita actualizar**, en función de qué archivos de código fuente (p.e. `.cpp`) han cambiado. Como resultado, si se cambian unos pocos archivos de código fuente y luego se ejecuta Make, solo se lanzará la compilación de los ficheros afectados; no se compilará el proyecto entero, por lo que ahorraremos tiempo.
