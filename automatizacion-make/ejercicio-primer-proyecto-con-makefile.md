@@ -40,6 +40,14 @@ Vamos a crear un proyecto sencillo tipo Hello World con un Makefile. Este proyec
 Crea un directorio para el proyecto, accede a él, y crea con Vim los siguientes cuatro ficheros de código fuente (.cpp y .h):&#x20;
 
 {% tabs %}
+{% tab title="helloPRA.h" %}
+```cpp
+#include <string>
+
+std::string say();
+```
+{% endtab %}
+
 {% tab title="helloPRA.cpp" %}
 ```c++
 #include "helloPRA.h"
@@ -47,14 +55,6 @@ Crea un directorio para el proyecto, accede a él, y crea con Vim los siguientes
 std::string say(){
     return "Hello PRA!";
 }
-```
-{% endtab %}
-
-{% tab title="helloPRA.h" %}
-```cpp
-#include <string>
-
-std::string say();
 ```
 {% endtab %}
 
@@ -259,12 +259,13 @@ Pues bien, con Make se pueden definir fácilmente **reglas automáticas de gener
 
 ```makefile
 .SUFFIXES: .cpp .h .o # definimos sufijos válidos
-.cpp.o: ; g++ -c $*.cpp # regla para generar archivos .o a partir de .cpp
+.cpp.o:
+    g++ -c $*.cpp # regla para generar archivos de .cpp a .o
 ```
 
 Con esta regla automática, ya no es necesario especificar comandos en los objetivos correspondientes a ficheros `.o`, pues Make los infiere. Únicamente especificamos las dependencias:
 
-```
+```makefile
 helloPRA.o: helloPRA.cpp helloPRA.h
 
 app1.o: app1.cpp helloPRA.h
