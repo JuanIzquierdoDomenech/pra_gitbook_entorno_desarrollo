@@ -63,6 +63,10 @@ Muestra números de línea. La línea actual aparece con su número absoluto, mi
 
 Esto facilita el uso de comandos de movimiento. Por ejemplo, si una línea aparece marcada con el número relativo 5, podemos movernos hasta ella escribiendo `5j` (hacia abajo) o `5k` (hacia arriba) desde el modo comando, según esté por debajo o por encima de la línea actual.
 
+{% hint style="info" icon="lightbulb" %}
+También podemos usar las flechas tradicionales.
+{% endhint %}
+
 <figure><img src="../.gitbook/assets/ChatGPT Image 28 may 2026, 20_05_45.png" alt="" width="563"><figcaption><p>Atajos para moverse entre líneas (modo comando)</p></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/Grabación de pantalla 2026-05-28 a las 20.01.30.gif" alt=""><figcaption></figcaption></figure>
