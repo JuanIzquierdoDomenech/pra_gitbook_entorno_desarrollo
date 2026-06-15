@@ -2,7 +2,7 @@
 
 <figure><img src=".gitbook/assets/ISO_C++_Logo.svg.png" alt="" width="188"><figcaption></figcaption></figure>
 
-[C++](https://isocpp.org/) es un lenguaje de programación de alto nivel y propósito general diseñado por Bjarne Stroustrup, concebido como una extensión del lenguaje de programación C para añadir mecanismos que permiten la manipulación de objetos, "genericidad" y programación funcional. Su primera versión vio la luz en 1985, y la última versión estable (C++20) se lanzó en Diciembre de 2020. Es el lenguaje vehicular que usamos en la asignatura "Programación" (Semestre 1B) y que continuaremos usando en "Programación Avanzada" (Semestre 2A).
+[C++](https://isocpp.org/) es un lenguaje de programación de alto nivel y propósito general diseñado por Bjarne Stroustrup, concebido como una extensión del lenguaje de programación C para añadir mecanismos que permiten la manipulación de objetos, "genericidad" y programación funcional. Su primera versión vio la luz en 1985, y la última versión estable (C++23) se lanzó en Diciembre de 2023. Es el lenguaje vehicular que usamos en la asignatura "Programación" (Semestre 1B) y que continuaremos usando en "Programación Avanzada" (Semestre 2A).
 
 En caso de no tener instalado el compilador de C++ en tu sistema operativo (`g++`), aquí tienes las (breves) instrucciones de instalación:
 
