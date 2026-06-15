@@ -2,10 +2,10 @@
 
 ## Directorio de trabajo (working directory)
 
-Una terminal tiene asociado un directorio de trabajo, que viene a ser básicamente el directorio del sistema de archivos en el que nos encontramos. Por defecto, cuando abrimos una nueva terminal Bash, el directorio de trabajo inicial es el directorio del usuario del sistema, o más comunmente denominado directorio _home_ (casa) del usuario. Si, por ejemplo, nuestro nombre de usuario en el sistema es `maripili`, entonces el directorio de trabajo incial es `/home/maripili`. A partir de dicho directorio podemos realizar multitud de operaciones con ficheros, descargar archivos de internet, ejecutar programas, etc.
+Una terminal tiene asociado un directorio de trabajo, que viene a ser básicamente el directorio del sistema de archivos en el que nos encontramos. Por defecto, cuando abrimos una nueva terminal Bash, el directorio de trabajo inicial es el directorio del usuario del sistema, o más comúnmente denominado directorio _home_ (casa) del usuario. Si, por ejemplo, nuestro nombre de usuario en el sistema es `maripili`, entonces el directorio de trabajo inicial es `/home/maripili` (variable de entorno `$HOME`). A partir de dicho directorio podemos realizar multitud de operaciones con ficheros, descargar archivos de internet, ejecutar programas, etc.
 
 {% hint style="info" %}
-En la terminal, podeis consultar en cualquier momento cuál es el directorio de trabajo actual, invocando el comando **`pwd`** (ver sección [Comandos básicos](comandos-basicos.md)).
+En la terminal, podéis consultar en cualquier momento cuál es el directorio de trabajo actual, invocando el comando **`pwd`** (ver sección [Comandos básicos](comandos-basicos.md)).
 {% endhint %}
 
 ## Rutas (_Paths_) de directorios y ficheros
