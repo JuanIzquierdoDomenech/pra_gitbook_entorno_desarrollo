@@ -69,6 +69,6 @@ Si os interesa, podéis consultar un listado más amplio de comandos básicos [e
 
 **`mv`**` ``<SRC> <DST>` _**(move):**_ mueve el fichero o directorio `<SRC>` a `<TRG>`.
 
-* Nos sirve tanto para mover ficheros a otros directorios, como para renombrar de un fichero.
+* Nos sirve tanto para **mover ficheros** a otros directorios, como para **renombrar** de un fichero.
 
 <figure><img src="../.gitbook/assets/Captura de pantalla 2026-05-21 a las 12.22.41.png" alt="" width="563"><figcaption></figcaption></figure>
