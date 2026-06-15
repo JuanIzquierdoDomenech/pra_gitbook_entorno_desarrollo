@@ -53,7 +53,7 @@ Esta línea configura la indentación del editor.
 * `tabstop=4` indica que un tabulador se mostrará con una anchura equivalente a 4 espacios.
 * `softtabstop=4` hace que, al pulsar la tecla TAB en modo inserción, Vim avance como si se hubiesen introducido 4 espacios.
 * `shiftwidth=4` indica que las operaciones de indentación automática o manual usarán 4 espacios.
-* `expandtab` hace que Vim inserte espacios en lugar de caracteres de tabulación reales.
+* `expandtab` hace que Vim inserte espacios en lugar de caracteres de tabulación reales (<mark style="background-color:$warning;">no recomendado para editar ficheros Make</mark>, ya que Make es sensible a la indentación).
 * `autoindent` mantiene en la línea nueva la misma indentación que tenía la línea anterior.
 * `smartindent` aplica algunas reglas básicas adicionales de indentación, útiles en lenguajes como C y C++.
 

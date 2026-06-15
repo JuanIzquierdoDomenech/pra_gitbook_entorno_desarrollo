@@ -4,7 +4,7 @@ La herramienta Make se fundamenta en los denominados ficheros _Makefile_, que co
 
 ## Reglas / objetivos
 
-Una regla u objetivo en el archivo _Makefile_ indica a Make **qué comandos debe ejecutar para crear un archivo de destino (compilado) a partir de una serie de archivos de entrada**. Estos archivos de entrada se denominan **dependencias**, y pueden ser archivos fuente (p.e. ficheros `.cpp`, `.c`, `.h`, etc.), o archivos de destino generados por otras reglas (p.e. ficheros de código objeto `.o`).&#x20;
+Una regla u objetivo en el archivo _Makefile_ indica a Make **qué comandos debe ejecutar para crear un archivo de destino (compilado) a partir de una serie de archivos de entrada**. Estos archivos de entrada se denominan **dependencias**, y pueden ser archivos fuente (p.ej., ficheros `.cpp`, `.c`, `.h`, etc.), o archivos de destino generados por otras reglas (p.ej., ficheros de código objeto `.o`).&#x20;
 
 Una regla Make tiene el siguiente aspecto:&#x20;
 
