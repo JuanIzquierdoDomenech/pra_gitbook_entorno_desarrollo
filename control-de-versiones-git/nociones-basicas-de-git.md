@@ -66,10 +66,10 @@ La figura siguiente muestra de forma visual este proceso de trabajo colaborativo
 
 <figure><img src="../.gitbook/assets/https___content.gitbook.com_content_KCglCYAzIkqjjsArrX0I_blobs_Fxp6k1lGBZ4RU3jJewNk_basic-remote-workflow.png" alt="" width="563"><figcaption><p>Sincronización de los repositorios git locales de dos desarrolladores distintos a través de un repositorio remoto.</p></figcaption></figure>
 
-Hay dos desarrolladores, A y B, cada uno con su repositorio git local en su propio dispositivo (PC, portátil, ...). Ambos repositorios locales están "enlazados" con un repositorio git remoto (p.e. en [GitHub](https://github.com/)), el cual centraliza todas las transacciones (enfoque _bottom-up_).
+Hay dos desarrolladores, A y B, cada uno con su repositorio git local en su propio dispositivo (PC, portátil, ...). Ambos repositorios locales están "enlazados" con un repositorio git remoto (p.ej., en [GitHub](https://github.com/)), el cual centraliza todas las transacciones (enfoque _bottom-up_).
 
 {% hint style="info" %}
-Dicho de otra manera (enfoque _top-down_): existe un repositorio remoto "oficial" que almacena el proyecto.  Los dos desarrolladores han clonado (`git clone`) este repositorio en sus respectivos dispositivos, de modo que A y B tienen sendas copias locales.&#x20;
+Dicho de otra manera (enfoque _top-down_): existe un repositorio remoto "oficial" que almacena el proyecto. Los dos desarrolladores han clonado (`git clone`) este repositorio en sus respectivos dispositivos, de modo que A y B tienen sendas copias locales.&#x20;
 {% endhint %}
 
 Asumimos que los tres repositorios git (A, B, y remoto) estan sincronizados (misma base de datos, con los mismos ficheros y el mismo historial de commits). En la figura se puede intuir que:
