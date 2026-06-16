@@ -12,23 +12,106 @@ Es muy importante que realicéis esta actividad usando las herramientas presenta
 El propósito principal de este actividad es que practiquéis con ellas y que aprendáis a utilizarlas.&#x20;
 {% endhint %}
 
-1. Abre una terminal, crea un directorio, entra dentro de él, e inicializa un repositorio Git vacío.&#x20;
-2. Implementa en C++, con Vim, una clase denominada `BrazoRobotico`, con:
-   * 3 atributos privados correspondientes a las coordenadas _(`x`,`y`,`z`)_ en el espacio 3D en la que se encuentra la extremidad del robot.
-   * 1 atributo privado que indique si el robot está sujetando un objeto o no.&#x20;
-   * 1 método constructor.
-   * 4 métodos consultores para los 4 atributos privados.
-   * Un método `coger()`.
-   * Un método `soltar()`.
-   * Un método `mover(double, double, double)`.
-   * Nota: separa la clase `BrazoRobotico`, en un fichero de cabeceras (`.h`) y un fichero de código fuente (`.cpp`) por separado. Quizás necesites recuperar los apuntes de la asignatura Programación para hacerlo.
-3. Añade los ficheros de la clase al repositorio Git y haz commit con un mensaje informativo.
-4. Implementa en C++, con Vim, una función `main()` que cree una instancia de la clase `BrazoRobotico`, que lo mueva, y que coja un objeto, mostrando información por pantalla.&#x20;
-   * Defínela en un fichero `.cpp` independiente al de la clase.&#x20;
-5. Añade el fichero `.cpp` de la función `main()` al repositorio Git y haz commit con un mensaje informativo.
-6. Crea un fichero `Makefile` con las reglas convencionales `all`, `clean`, y `test`, además de aquellas otras que necesites.&#x20;
-7. Añade el fichero `Makefile` al repositorio Git y haz commit con un mensaje informativo.
-8. Crea un repositorio remoto en [Github](https://github.com), **público**, denominado `PRA_2627_P0`, y sincroniza tu repositorio local con dicho repositorio.
+* Abre una terminal, crea un directorio, entra dentro de él, e inicializa un repositorio Git vacío.&#x20;
+* Antes de nada, crea el fichero oculto `.gitignore` con el siguiente contenido, para que git no haga seguimiento de ciertos ficheros:
+
+<details>
+
+<summary>.gitignore</summary>
+
+```md
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Linker files
+*.ilk
+
+# Debugger Files
+*.pdb
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+*.so.*
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Build directories
+build/
+Build/
+build-*/
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+install_manifest.txt
+compile_commands.json
+
+# Temporary files
+*.tmp
+*.log
+*.bak
+*.swp
+
+# vcpkg
+vcpkg_installed/
+
+# debug information files
+*.dwo
+
+# test output & cache
+Testing/
+.cache/
+
+# MacOS
+.DS_Store
+
+```
+
+</details>
+
+* Implementa en C++, con Vim, una clase denominada `BrazoRobotico`, con:
+  * 3 atributos privados correspondientes a las coordenadas _(`x`,`y`,`z`)_ en el espacio 3D en la que se encuentra la extremidad del robot.
+  * 1 atributo privado que indique si el robot está sujetando un objeto o no.&#x20;
+  * 1 método constructor.
+  * 4 métodos consultores para los 4 atributos privados.
+  * Un método `coger()`.
+  * Un método `soltar()`.
+  * Un método `mover(double, double, double)`.
+  * Nota: separa la clase `BrazoRobotico`, en un fichero de cabeceras (`.h`) y un fichero de código fuente (`.cpp`) por separado. Quizás necesites recuperar los apuntes de la asignatura Programación para hacerlo.
+* Añade los ficheros de la clase al repositorio Git y haz commit con un mensaje informativo.
+* Implementa en C++, con Vim, una función `main()` que cree una instancia de la clase `BrazoRobotico`, que lo mueva, y que coja un objeto, mostrando información por pantalla.&#x20;
+  * Defínela en un fichero `.cpp` independiente al de la clase.&#x20;
+* Añade el fichero `.cpp` de la función `main()` al repositorio Git y haz commit con un mensaje informativo.
+* Crea un fichero `Makefile` con las reglas convencionales `all`, `clean`, y `test`, además de aquellas otras que necesites.&#x20;
+* Añade el fichero `Makefile` al repositorio Git y haz commit con un mensaje informativo.
+* Crea un repositorio remoto en [Github](https://github.com), **público**, denominado `PRA_2627_P0`, y sincroniza tu repositorio local con dicho repositorio.
 
 {% hint style="warning" icon="eyes" %}
 **Es muy importante que el repositorio se configure con visibilidad pública**, para que vuestro profesor pueda acceder a él, y con ello pueda hacer el seguimiento de vuestra actividad en la asignatura.&#x20;
