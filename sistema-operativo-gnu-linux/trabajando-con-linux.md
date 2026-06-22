@@ -1,3 +1,24 @@
+---
+layout:
+  width: wide
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
+---
+
 # Trabajando con Linux
 
 Se recomienda que trabajéis en aula con los PCs de los laboratorios del DSIC que permiten cargar máquinas virtuales remotas basadas en GNU/Linux. Desde casa es posible trabajar con las mismas máquinas remotas desde vuestros equipos de casa.

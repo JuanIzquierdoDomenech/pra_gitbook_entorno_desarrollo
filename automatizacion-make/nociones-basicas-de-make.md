@@ -1,3 +1,24 @@
+---
+layout:
+  width: wide
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
+---
+
 # Nociones básicas de Make
 
 La herramienta Make se fundamenta en los denominados ficheros _Makefile_, que contienen, principalmente, una serie de reglas u objetivos compilación, las cuales especifican cómo se debe compilar el proyecto para poder instalarlo, distribuirlo, o simplemente ejecutarlo.&#x20;

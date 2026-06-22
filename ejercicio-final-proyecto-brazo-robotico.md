@@ -1,3 +1,24 @@
+---
+layout:
+  width: wide
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
+---
+
 # Ejercicio final: proyecto "Brazo Robótico"
 
 Para terminar, vamos a realizar un **ejercicio que ponga en práctica todas las herramientas que hemos visto**: terminal Bash, editor Vim, programación en C++, control de versiones con Git/GitHub, y automatización de la compilación con Make.&#x20;

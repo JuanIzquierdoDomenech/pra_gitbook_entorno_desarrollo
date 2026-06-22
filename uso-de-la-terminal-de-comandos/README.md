@@ -1,3 +1,24 @@
+---
+layout:
+  width: wide
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
+---
+
 # Uso de la terminal de comandos
 
 <figure><img src="../.gitbook/assets/Comprobar-permisos-script-bash.avif" alt="" width="563"><figcaption></figcaption></figure>

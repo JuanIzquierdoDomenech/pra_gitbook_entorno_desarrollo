@@ -1,3 +1,24 @@
+---
+layout:
+  width: wide
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
+---
+
 # Ejercicio 2: sincronizando un repositorio local con un repositorio remoto
 
 <figure><img src="../../.gitbook/assets/GitHub-Logo.png" alt="" width="375"><figcaption></figcaption></figure>

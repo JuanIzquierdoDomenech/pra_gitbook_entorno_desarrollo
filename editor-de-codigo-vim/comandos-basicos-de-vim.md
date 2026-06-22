@@ -1,3 +1,24 @@
+---
+layout:
+  width: wide
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
+---
+
 # Comandos básicos de Vim
 
 A continuación se proporciona un listado de comandos básicos que se pueden ejecutar desde los modos comando y/o visual de Vim, y que deberéis aprender para la realización de las prácticas.&#x20;

@@ -1,3 +1,24 @@
+---
+layout:
+  width: wide
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
+---
+
 # Sistema operativo: GNU/Linux
 
 <figure><img src="../.gitbook/assets/GNU+Linux.png" alt="" width="310"><figcaption></figcaption></figure>

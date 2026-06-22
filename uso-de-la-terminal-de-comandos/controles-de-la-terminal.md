@@ -1,3 +1,24 @@
+---
+layout:
+  width: wide
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
+---
+
 # Controles de la terminal
 
 En esta sección se proporcionan una serie de controles básicos asociados a la aplicación de la terminal y que debéis conocer. Especialmente la función de autocompletado :)

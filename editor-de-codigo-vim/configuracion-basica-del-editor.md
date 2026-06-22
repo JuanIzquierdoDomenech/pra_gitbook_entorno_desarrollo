@@ -1,3 +1,24 @@
+---
+layout:
+  width: wide
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
+---
+
 # Configuración básica del editor
 
 **Opcionalmente**, podemos crear un pequeño fichero de configuración para que Vim arranque siempre con algunas opciones activadas. Este fichero se llama `.vimrc` y debe estar ubicado en el directorio _home_ (\~) del usuario:

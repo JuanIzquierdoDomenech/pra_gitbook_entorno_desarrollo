@@ -1,3 +1,24 @@
+---
+layout:
+  width: wide
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
+---
+
 # Editor de código: Vim
 
 <figure><img src="../.gitbook/assets/Vimlogo.svg.png" alt="" width="188"><figcaption></figcaption></figure>

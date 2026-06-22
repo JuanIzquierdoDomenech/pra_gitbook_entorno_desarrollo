@@ -1,3 +1,24 @@
+---
+layout:
+  width: wide
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
+---
+
 # Ejercicio 3: clonando un repositorio remoto
 
 En este último ejercicio vamos a clonar un repositorio Git remoto existente. Concretamente, el repositorio Github de [yt-dlp](https://github.com/yt-dlp/yt-dlp), una popular herramienta que permite descargar vídeos y audios de Youtube.&#x20;

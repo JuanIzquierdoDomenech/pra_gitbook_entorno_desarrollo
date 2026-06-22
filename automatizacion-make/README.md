@@ -1,3 +1,24 @@
+---
+layout:
+  width: wide
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
+---
+
 # Automatización: Make
 
 [Make](https://en.wikipedia.org/wiki/Make_\(software\)) es una **herramienta de automatización de procesos de compilación**, mediante la lectura de archivos llamados _Makefile_ que especifican objetivos (de compilación) y como se puede llegar a ellos. Su primera versión fue lanzada en 1976. Es una herramienta ampliamente utilizada, especialmente en proyectos de software libre escritos en C y C++.&#x20;
